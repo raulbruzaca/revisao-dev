@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eaf4ff;
+}
+
+main > article {
+  border: 3px solid gray;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 24px auto;
+  max-width: 800px;
+  background-color: #d6eaff;
+}
+
+main > article > h1 {
+  text-align: center;
+}
+main > article > img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
+  
+}
+.cards {
+  display: grid;
+  border: 2px solid gray;
+  border-radius: 12px; 
+  padding: 16px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  background-color: #c2e0ff;
+}
+
+@media (max-width: 600px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+main > section > h2 {
+  text-align: center;
+}
